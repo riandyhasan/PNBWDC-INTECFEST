@@ -38,13 +38,22 @@ const informasi = [
 
 export default function Footer() {
   return (
-    <Flex as="footer" bg="brand.primary" minW="100vw" p="2rem 2rem 0.5rem 2rem" color="brand.tertiary" alignItems="flex-start" gridGap={36}>
-      <Flex direction="column" alignItems="flex-start" justifyContent="space-between" gridGap={28}>
+    <Flex
+      as="footer"
+      direction={{ base: "column", lg: "row" }}
+      bg="brand.primary"
+      minW="100vw"
+      p="2rem 2rem 0.5rem 2rem"
+      color="brand.tertiary"
+      alignItems={{ base: "flex-start", sm: "center", md: "center", lg: "flex-start" }}
+      gridGap={{ base: 8, lg: 12, xl: 36 }}
+    >
+      <Flex direction="column" alignItems={{ base: "flex-start", sm: "center", md: "center", lg: "flex-start" }} justifyContent="space-between" gridGap={{ base: 4, lg: 28 }}>
         <Flex alignItems="center" gridGap={4}>
           <Image src="assets/img/LogoBulatShadow.png" width="65px" />
           <Box>
             <Heading fontSize="2xl">PlasmaHub</Heading>
-            <Text>#BantuCari, BantuDonor.</Text>
+            <Text fontSize="sm">#BantuCari, BantuDonor.</Text>
           </Box>
         </Flex>
         <Text>&copy; PlasmaHub 2021</Text>
@@ -62,7 +71,7 @@ export default function Footer() {
         ))}
       </Flex>
 
-      <Flex direction="column" gridGap={4}>
+      <Flex direction="column" gridGap={4} marginRight={{ base: "0rem", sm: "8rem", md: "8rem", lg: "0rem" }}>
         <Heading fontSize="xl">Informasi</Heading>
         {informasi.map((item) => (
           <Link href={item.link}>
