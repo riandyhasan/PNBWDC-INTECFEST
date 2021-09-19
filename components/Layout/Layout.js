@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
-    <Flex direction="column" align="center" m="auto" overflowX="hidden" {...props}>
+    <Flex direction="column" align="center" m="auto" {...props}>
       <Navbar />
       {props.children}
       <Footer />
