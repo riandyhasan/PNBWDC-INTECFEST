@@ -27,7 +27,7 @@ export default function Navbar({ ...props }) {
 
   return (
     <Flex as="nav" align="center" alingItems="center" justify="space-between" wrap="wrap" w="100%" p="0.1em" paddingLeft={["0em", "0em", "2em"]} paddingRight={["0em", "0em", "2em"]} {...props}>
-      <Box cursor="pointer" maxW="25vw" marginTop="1.3em">
+      <Box cursor="pointer" maxW="25vw" marginTop="1.3em" marginBottom="1.3em">
         <Link href="/">
           <Image src="/assets/img/LogoPanjang.png" width="143px" />
         </Link>
@@ -57,18 +57,20 @@ export default function Navbar({ ...props }) {
               </Link>
             </Box>
           ))}
-          <Button
-            fontSize="1em"
-            fontWeight={600}
-            bg="brand.primary"
-            color="brand.tertiary"
-            _hover={{
-              color: "brand.primary",
-              bg: "brand.tertiary",
-            }}
-          >
-            Cari Plasma
-          </Button>
+          <Link href="/#bantudonor">
+            <Button
+              fontSize="1em"
+              fontWeight={600}
+              bg="brand.primary"
+              color="brand.tertiary"
+              _hover={{
+                color: "brand.primary",
+                bg: "brand.tertiary",
+              }}
+            >
+              Cari Plasma
+            </Button>
+          </Link>
         </Stack>
       </Box>
     </Flex>
