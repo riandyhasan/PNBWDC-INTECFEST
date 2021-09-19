@@ -5,7 +5,7 @@ import DonorCard from "../DonorCard/DonorCard";
 export default function BantuDonor({ ...props }) {
   return (
     <Flex direction="column" id="bantudonor" alignItems="center" {...props}>
-      <Flex bg="brand.primary" color="brand.secondary" minW="100vw" padding="1rem 3rem 1rem 3rem" marginBottom="3rem" alignItems="center" justifyContent="space-between">
+      <Flex bg="brand.primary" color="brand.secondary" w="100%" padding="1rem 3rem 1rem 3rem" marginBottom="3rem" alignItems="center" justifyContent="space-between">
         <Flex alignItems="center" gridGap={4}>
           <Image src="assets/svg/pin.svg" width="1.4em" />
           <Heading fontSize="2xl">Banjarmasin</Heading>

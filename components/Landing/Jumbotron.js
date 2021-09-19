@@ -6,7 +6,7 @@ export default function LandingJumbotron({ ...props }) {
   const [isHoverSearch, setIsHoverSearch] = useState(false);
 
   return (
-    <Flex alignItems="center" maxH="100vh" bg="linear-gradient(259.32deg, rgba(187, 55, 26, 0.21) 7.22%, rgba(255, 248, 217, 0.53) 99.6%)" justifyContent="space-between" padding="1rem 0rem 5rem 4rem" w="100vw" {...props}>
+    <Flex alignItems="center" maxH="100vh" bg="linear-gradient(259.32deg, rgba(187, 55, 26, 0.21) 7.22%, rgba(255, 248, 217, 0.53) 99.6%)" justifyContent="space-between" padding="1rem 0rem 5rem 4rem" w="100%" {...props}>
       <Flex direction="column" gridGap={4} maxW="400px">
         <Image src="assets/img/LogoPanjang.png" width="400px" />
         <Heading color="brand.secondary">Bantu Temukan Donor Plasma di Sekitarmu!</Heading>

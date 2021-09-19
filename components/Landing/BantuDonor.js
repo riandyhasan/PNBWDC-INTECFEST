@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BantuDonor({ ...props }) {
   return (
-    <Flex id="bantudonor" bg="brand.primary" color="brand.tertiary" padding="4rem" alignItems="center" justifyContent="space-between" {...props}>
+    <Flex bg="brand.primary" color="brand.tertiary" padding="4rem" alignItems="center" justifyContent="space-between" {...props}>
       <Box>
         <Heading>Bantu Pasien Covid Mendapatkan Donor Plasma!</Heading>
         <Text marginTop={3}>Mari kita bantu orang-orang di dekatmu yang sedang terkena COVID-19 untuk sembuh dengan mendonorkan plasma konvalesen! </Text>

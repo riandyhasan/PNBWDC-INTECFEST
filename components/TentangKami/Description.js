@@ -3,7 +3,7 @@ import { Flex, Image, Box, Heading, Text } from "@chakra-ui/react";
 
 export default function Description({ ...props }) {
   return (
-    <Flex maxW="100vw" padding={{ base: "0rem 1rem 0rem 1rem", sm: "0rem 6rem 0rem 6rem", lg: "0rem 8rem 0rem 6rem" }} alignItems="center" justifyContent="center" direction={{ base: "column", md: "row" }} {...props} gridGap={20}>
+    <Flex w="100%" padding={{ base: "0rem 1rem 0rem 1rem", sm: "0rem 6rem 0rem 6rem", lg: "0rem 8rem 0rem 6rem" }} alignItems="center" justifyContent="center" direction={{ base: "column", md: "row" }} {...props} gridGap={20}>
       <Image src="assets/img/LogoPlasmaHub.png" width="200px" />
       <Box marginLeft={{ base: "2rem", sm: "0rem" }}>
         <Heading color="brand.primary" fontSize="5xl">

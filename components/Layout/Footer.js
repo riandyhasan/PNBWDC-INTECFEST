@@ -42,7 +42,7 @@ export default function Footer() {
       as="footer"
       direction={{ base: "column", lg: "row" }}
       bg="brand.primary"
-      minW="100vw"
+      w="100%"
       p="2rem 2rem 0.5rem 2rem"
       color="brand.tertiary"
       alignItems={{ base: "flex-start", sm: "center", md: "center", lg: "flex-start" }}
