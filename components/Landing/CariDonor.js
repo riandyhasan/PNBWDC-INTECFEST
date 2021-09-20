@@ -10,8 +10,11 @@ export default function CariDonor({ onModalOpen, setModalWidth, setModalTitle, s
         Donor Plasma di Dekatmu!
       </Heading>
       <Flex flexDir={{ base: "column", lg: "row" }} alignItems={{ base: "center", lg: "flex-start" }} justifyContent={{ base: "center", lg: "space-around" }} gridGap={16}>
-        <Box padding="4rem" bg="brand.primary" borderRadius="13px" position={{ base: "relative", lg: "sticky" }} top="0">
+        <Box padding={{ base: "4rem 2rem 4rem 4rem", sm: "4rem" }} bg="brand.primary" borderRadius="13px" position={{ base: "relative", lg: "sticky" }} top="0">
           <Map />
+          <Heading color="brand.tertiary" fontSize={{ base: "md", sm: "lg", lg: "xl" }} marginTop="3rem">
+            Klik pada peta untuk memindah lokasimu!
+          </Heading>
         </Box>
         <Grid templateColumns="repeat(1, 1fr)" gap={6}>
           <PlasmaCard onModalOpen={onModalOpen} setModalTitle={setModalTitle} setModalContent={setModalContent} setModalWidth={setModalWidth} />
