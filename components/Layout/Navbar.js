@@ -26,7 +26,7 @@ export default function Navbar({ ...props }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Flex as="nav" align="center" alingItems="center" justify="space-between" wrap="wrap" w="100%" p="0.1em" paddingLeft={["0em", "0em", "2em"]} paddingRight={["0em", "0em", "2em"]} {...props}>
+    <Flex as="nav" align="center" alingItems="center" justify="space-between" wrap="wrap" w="100%" p="0.1em" paddingLeft={["2em", "2em", "2em"]} paddingRight={["2em", "2em", "2em"]} {...props}>
       <Box cursor="pointer" maxW="25vw" marginTop="1.3em" marginBottom="1.3em">
         <Link href="/">
           <Image src="/assets/img/LogoPanjang.png" width="143px" />
@@ -45,9 +45,9 @@ export default function Navbar({ ...props }) {
                   fontWeight={500}
                   cursor="pointer"
                   textAlign="center"
-                  color={router.asPath == link.path ? "brand.primary" : ""}
-                  marginTop={router.asPath == link.path ? "3px" : ""}
-                  borderBottom={router.asPath == link.path ? "3px solid #BB371A" : ""}
+                  color={router.asPath == link.path || router.asPath == link.path + "#bantudonor" || router.asPath == link.path + "#desc" || router.asPath == link.path + "#caridonor" ? "brand.primary" : ""}
+                  marginTop={router.asPath == link.path || router.asPath == link.path + "#bantudonor" || router.asPath == link.path + "#desc" || router.asPath == link.path + "#caridonor" ? "3px" : ""}
+                  borderBottom={router.asPath == link.path || router.asPath == link.path + "#bantudonor" || router.asPath == link.path + "#desc" || router.asPath == link.path + "#caridonor" ? "3px solid #BB371A" : ""}
                   _hover={{
                     color: "brand.primary",
                   }}
