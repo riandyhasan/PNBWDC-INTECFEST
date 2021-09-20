@@ -4,7 +4,7 @@ Photo by <a href="https://unsplash.com/@hieptltb97?utm_source=unsplash&utm_mediu
 About Us:
 Photo by <a href="https://unsplash.com/@luannhunt180?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">LuAnn Hunt</a> on <a href="https://unsplash.com/s/photos/donor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-Blood Icons:
+Blood Icon:
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 Person with Mask Icon:
@@ -13,7 +13,7 @@ Person with Mask Icon:
 Pendonor Icon:
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-Location Icons:
+Location Icon:
 <div>Icons made by <a href="https://www.flaticon.com/authors/bqlqn" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 Register Icon:
@@ -28,6 +28,9 @@ Hospital Pin Icon:
 Patient Icon:
 <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
-Phone,map, search icon:
+Register Icon:
+<div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Phone, map, search icon:
 https://icofont.com/
 
