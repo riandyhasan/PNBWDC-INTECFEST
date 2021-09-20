@@ -1,12 +1,12 @@
 import React from "react";
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton } from "@chakra-ui/react";
 
-export default function ModalCustom({ title, content, isOpen, onClose, ...props }) {
+export default function ModalCustom({ width, title, content, isOpen, onClose, ...props }) {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} size="lg" {...props}>
+    <Modal size={width} motionPreset="slideInRight" w={width} isOpen={isOpen} onClose={onClose} {...props}>
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader mr="2rem" color="brand.primary" fontSize="2xl">
+        <ModalHeader color="brand.primary" textAlign="center" fontSize="4xl">
           {title}
         </ModalHeader>
         <ModalCloseButton />
