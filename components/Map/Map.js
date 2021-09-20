@@ -16,7 +16,7 @@ export default function Map({ ...props }) {
   return (
     <ReactMapGL
       {...viewport}
-      width={isLg ? "40vw" : "70vw"}
+      width="45vw"
       mapboxApiAccessToken="pk.eyJ1IjoicmlhbmR5aGFzYW4iLCJhIjoiY2t0cmNwdTFiMTUwbzJvbDRjdG4zcHliciJ9.kWgnsrMNfY_h1t2BAmwaUQ"
       mapStyle="mapbox://styles/riandyhasan/cktrdh2an04bf17qr9zx013qs"
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
