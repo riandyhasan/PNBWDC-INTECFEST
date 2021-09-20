@@ -6,15 +6,25 @@ export default function LandingJumbotron({ ...props }) {
   const [isHoverSearch, setIsHoverSearch] = useState(false);
 
   return (
-    <Flex alignItems="center" maxH="100vh" bg="linear-gradient(259.32deg, rgba(187, 55, 26, 0.21) 7.22%, rgba(255, 248, 217, 0.53) 99.6%)" justifyContent="space-between" padding="1rem 0rem 5rem 4rem" w="100%" {...props}>
-      <Flex direction="column" gridGap={4} maxW="400px">
-        <Image src="assets/img/LogoPanjang.png" width="400px" />
-        <Heading color="brand.secondary">Bantu Temukan Donor Plasma di Sekitarmu!</Heading>
+    <Flex
+      alignItems="center"
+      bg="linear-gradient(259.32deg, rgba(187, 55, 26, 0.21) 7.22%, rgba(255, 248, 217, 0.53) 99.6%)"
+      justifyContent={{ base: "center", lg: "space-between" }}
+      padding={{ base: "5rem 4rem 5rem 4rem", lg: "1rem 0rem 5rem 4rem" }}
+      w="100%"
+      minH="100vh"
+      {...props}
+    >
+      <Flex alignItems={{ base: "center", lg: "flex-start" }} direction="column" gridGap={4} maxW="400px">
+        <Image src="assets/img/LogoPanjang.png" width={{ base: "200px", sm: "400px" }} />
+        <Heading textAlign={{ base: "center", lg: "left" }} fontSize={{ base: "xl", sm: "3xl" }} color="brand.secondary">
+          Bantu Temukan Donor Plasma di Sekitarmu!
+        </Heading>
         <Box marginTop="1rem">
           <Link href="#caridonor">
             <Button
-              fontSize="1.5rem"
-              padding="1.8rem 1rem 1.8rem 1rem"
+              fontSize={{ base: "0.7rem", sm: "1.5rem" }}
+              padding={{ base: "0.3rem", sm: "1.8rem 1rem 1.8rem 1rem" }}
               bg="brand.primary"
               color="brand.tertiary"
               _hover={{
@@ -31,7 +41,7 @@ export default function LandingJumbotron({ ...props }) {
         </Box>
       </Flex>
       <Box>
-        <Image src="assets/img/FotoLanding.png" boxSize="530px" />
+        <Image display={{ base: "none", lg: "block" }} src="assets/img/FotoLanding.png" boxSize="530px" />
       </Box>
     </Flex>
   );
