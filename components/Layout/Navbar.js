@@ -57,7 +57,7 @@ export default function Navbar({ ...props }) {
               </Link>
             </Box>
           ))}
-          <Link href="/#bantudonor">
+          <Link href="/#caridonor">
             <Button
               fontSize="1em"
               fontWeight={600}
