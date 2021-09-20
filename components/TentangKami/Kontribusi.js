@@ -16,7 +16,7 @@ const card = [
   {
     icon: "assets/svg/blood-drop2.svg",
     count: <AnimatedNumber value={200} suffix="+" />,
-    desc: "Pendonor Plasma Melalui PlasmaHub",
+    desc: "Pendonor Plasma Melalui PlasmaKu",
   },
 ];
 
@@ -24,7 +24,7 @@ export default function Kontribusi({ ...props }) {
   return (
     <Flex direction="column" {...props} p="0rem 4rem 0rem 4rem" color="brand.tertiary">
       <Heading color="brand.primary" fontSize="5xl">
-        Kontribusi <span style={{ color: "#EBA83A" }}>Plasma</span>Hub
+        Kontribusi <span style={{ color: "#EBA83A" }}>Plasma</span>Ku
       </Heading>
       <Grid
         marginTop="2rem"
