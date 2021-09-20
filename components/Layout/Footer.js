@@ -6,8 +6,8 @@ import Link from "next/link";
 const contacts = [
   {
     icon: <MdEmail size="2em" />,
-    contact: "admin@plasmahub.id",
-    link: "mailto:admin@plasmahub.id",
+    contact: "admin@plasmaku.id",
+    link: "mailto:admin@plasmaku.id",
   },
   {
     icon: <MdPhone size="2em" />,
@@ -52,11 +52,11 @@ export default function Footer() {
         <Flex alignItems="center" gridGap={4}>
           <Image src="assets/img/LogoBulatShadow.png" width="65px" />
           <Box>
-            <Heading fontSize="2xl">PlasmaHub</Heading>
+            <Heading fontSize="2xl">PlasmaKu</Heading>
             <Text fontSize="sm">#BantuCari, BantuDonor.</Text>
           </Box>
         </Flex>
-        <Text>&copy; PlasmaHub 2021</Text>
+        <Text>&copy; PlasmaKu 2021</Text>
       </Flex>
 
       <Flex direction="column" gridGap={4}>
@@ -90,7 +90,7 @@ export default function Footer() {
             bg: "brand.secondary",
           }}
         >
-          Gabung PlasmaHub
+          Gabung PlasmaKu
         </Button>
       </Box>
     </Flex>
